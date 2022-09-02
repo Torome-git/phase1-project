@@ -15,3 +15,8 @@
     height: 80vh;
     font-family: 'Lato', 'sans-serif';
   }
+
+  #brand-name {
+    text-align: center;
+    text-justify: newspaper;
+  }
