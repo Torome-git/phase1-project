@@ -1,1 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Lato&display=swap');
+
+* {
+    box-sizing: border-box;
+    font-size: 30px;
+  }
