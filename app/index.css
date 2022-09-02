@@ -57,3 +57,14 @@
     vertical-align: middle;
     border-radius: 5px;
   }
+
+  .image-gallery::after {
+    content: "";
+    flex-basis: 350px;
+  }
+
+  .image-gallery > li {
+    /* ... */
+    position: relative;
+    cursor: pointer;
+  }
