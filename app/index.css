@@ -20,3 +20,7 @@
     text-align: center;
     text-justify: newspaper;
   }
+
+  .packages-container {
+    margin: 20px 0;
+  }
