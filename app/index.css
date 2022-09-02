@@ -85,7 +85,11 @@
     align-items: center;
     justify-content: center;
   }
-
+    /* hover */
   .image-gallery li:hover .overlay {
     transform: scale(1);
+  }
+
+  p.text {
+    margin: 5px 0;
   }
