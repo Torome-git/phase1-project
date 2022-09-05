@@ -16,35 +16,38 @@
     <div class="packages-container">
         <label>Choose a car model</label>
         <select id="car">
-          <option value="mercedez">Mercedez Benz E350</option>
-          <option value="audi">Audi Rs6</option>
-          <option value="bmw">BMW</option>
-          <option value="jeep">JEEP</option>
+          <option value="10000">Mercedez Benz E350 ksh(10,000)</option>
+          <option value="15000">Audi Rs6 (ksh15,000)</option>
+          <option value="13000">BMW (ksh13,000)</option>
+          <option value="20000">JEEP(ksh20,000)</option>
         </select>
       </div>
       <div class="container">
         <ul class="image-gallery">
-          <li>
+          <li class="image">
+            <progress value="0" max="50000"></progress>
             <img src="../assets/images/basic-package_.png" alt="basic">
-            <div class="overlay"><span>The Basic basic-package_</span></div>
+            <div class="overlay" ><span>The Basic basic-package</span></div>
           </li>
-          <li>
-            <img src="" alt="" />
+          <li class="image">
+            <progress  value="10000" max="50000"></progress>
             <div class="overlay"><span></span></div>
+            <img src="" alt="" />
           </li>
-          <li>
+          <li class="image" >
+            <progress value="20000" max="50000"></progress>
             <img src="../assets/images/executive.png" alt="executive" />
-            <div class="overlay"><span>The Executive package</span></div>
-        </li>
+            <div class="overlay" ><span>The Executive package</span></div>
           </li>
-          <li>
+          <li class="image">
+            <progress value="30000" max="50000"></progress>
             <img src="../assets/images/weddin-package-menu-1332x999.jpg" alt="wedding" />
-            <div class="overlay"><span>The wedding package</span></div>
+            <div class="overlay" ><span>The wedding package</span></div>
           </li>
         </ul>
       </div>
       <div class="closing-statement">
-        <p class="text">You have selected the <span id="package">x</span> package at the price of ksh <span id="price"></span> for a <span id="model"></span></p>
+        <p class="text">You have selected package number <span id="package"></span> at the price of ksh <span id="price"></span> for a <span id="model"></span></p>
       </div>
     <script src="index.js"></script>
 </body>
