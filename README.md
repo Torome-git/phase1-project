@@ -8,8 +8,7 @@
 + [Description](#description)
 + [Installation Requirement](#Installation)
 + [Technology Used](#technology-used)
-+ [Licence]
-(#licence)
++ [Licence](#license)
 + [Authors Info](#author-Info)
 
 ## Description
@@ -52,11 +51,11 @@ LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 
-[Go Back to the top](#EXECUTIVE CAR HIRE PROJECT)
+[Go Back to the top](#EXECUTIVE-CAR-HIRE-PROJECT)
 
 ## Authors Info
 
 Email Address -
 [soila.torome@moringaschool.com]
 
-[Go Back to the top](#EXECUTIVE CAR HIRE PROJECT)
+[Go Back to the top](#EXECUTIVE-CAR-HIRE-PROJECT)
