@@ -42,8 +42,8 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    gap: 10px;
-    margin-bottom: 10px;
+    gap: 30px;
+    margin-bottom: 50px;
   }
 
   .image-gallery > li {
@@ -96,4 +96,8 @@
 
   p.text span {
     color: #f66fe2;
+  }
+
+  .container > ul {
+    list-style: none;
   }
